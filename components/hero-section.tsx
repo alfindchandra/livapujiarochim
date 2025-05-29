@@ -1,6 +1,5 @@
 "use client";
 
-import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Download, Mail } from "lucide-react";
@@ -10,7 +9,6 @@ import Link from "next/link";
 
 export default function HeroSection() {
   const { language } = useLanguage();
-  const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   // Avoid hydration mismatch

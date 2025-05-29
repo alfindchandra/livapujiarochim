@@ -97,9 +97,6 @@ const itemVariants = {
 export default function FooterSection() {
   const { language } = useLanguage();
   const t = translations[language] || translations.en;
-  const [email, setEmail] = useState("");
-  const [isSubscribing, setIsSubscribing] = useState(false);
-  const [subscribed, setSubscribed] = useState(false);
   const [currentYear] = useState(new Date().getFullYear());
 
   const navigationLinks = [
@@ -155,24 +152,6 @@ export default function FooterSection() {
       href: null,
     },
   ];
-
-  const handleSubscribe = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-
-    setIsSubscribing(true);
-
-    // Simulasi API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    setIsSubscribing(false);
-    setSubscribed(true);
-    setEmail("");
-
-    setTimeout(() => {
-      setSubscribed(false);
-    }, 5000);
-  };
 
   return (
     <footer className="bg-muted/30 text-white relative overflow-hidden">

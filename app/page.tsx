@@ -21,6 +21,7 @@ const Page = () => {
       <GallerySection />
       <ContactSection />
       <FooterSection />
+      <button onClick={handleLanguageChange}>Change Language</button>
     </main>
   );
 };
