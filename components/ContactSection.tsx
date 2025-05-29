@@ -9,7 +9,6 @@ import {
   Linkedin,
   Send,
   MapPin,
-  Clock,
 } from "lucide-react";
 import Link from "next/link";
 import { Input } from "@/components/ui/Input";

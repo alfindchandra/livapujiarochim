@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   Mail,
   Phone,
@@ -10,7 +10,6 @@ import {
   MapPin,
   ArrowRight,
   Heart,
-  Github,
   Twitter,
   LayersIcon,
   PersonStanding,

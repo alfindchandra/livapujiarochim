@@ -17,7 +17,6 @@ import {
 
 export default function AboutSection() {
   const { language } = useLanguage();
-  const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   // Avoid hydration mismatch

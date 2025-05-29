@@ -38,17 +38,17 @@ const navItems: NavItem[] = [
   },
   {
     label: {
-      id: "Proyek",
-      en: "Projects",
+      id: "Galeri",
+      en: "Gallery",
     },
-    href: "/projects",
+    href: "#gallery",
   },
   {
     label: {
       id: "Kontak",
       en: "Contact",
     },
-    href: "/services",
+    href: "#contact",
   },
 ];
 
