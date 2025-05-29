@@ -141,7 +141,7 @@ export default function ContactSection() {
     try {
       setIsSubmitting(true);
       const { name, email, message } = form;
-      const phoneNumber = "+6281382176161";
+      const phoneNumber = "+6282244621417";
       const text = `${
         language === "id" ? "Halo, saya" : "Hello, I am"
       } ${name}%0AEmail: ${email}%0A${

@@ -104,7 +104,7 @@ export default function HeroSection() {
                   {translations.downloadCV[language]}
                 </Button>
               </Link>
-              <Link href="mailto:alfindwichandrautbjn@gmail.com">
+              <Link href="mailto:livapujiarochim714@gmail.com">
                 <Button variant="outline" className="gap-2">
                   <Mail className="h-4 w-4" />
                   {translations.contactMe[language]}

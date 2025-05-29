@@ -131,7 +131,7 @@ export default function Navbar() {
           </Button>
 
           {/* Contact Button */}
-          <Link href="https://wa.me/+6281382176161?text=Halo,%20Saya%20ingin%20bertanya%20tentang%20anda">
+          <Link href="https://wa.me/+6282244621417?text=Halo,%20Saya%20ingin%20bertanya%20tentang%20anda">
             <Button className="gap-1">
               <MessageSquareText className="h-5 w-5 " />
               {language === "id" ? "Hubungi" : "Contact"}

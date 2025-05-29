@@ -138,8 +138,8 @@ export default function FooterSection() {
   const contactInfo = [
     {
       icon: <Mail className="w-4 h-4" />,
-      value: "livapujiarochim@gmail.com",
-      href: "mailto:livapujiarochim@gmail.com",
+      value: "livapujiarochim714@gmail.com",
+      href: "mailto:livapujiarochim714@gmail.com",
     },
     {
       icon: <Phone className="w-4 h-4" />,
