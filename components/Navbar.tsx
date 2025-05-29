@@ -205,9 +205,11 @@ export default function Navbar() {
                     )}
                   </Button>
                 </div>
-                <Button className="mt-4">
-                  {language === "id" ? "Kontak" : "Contact"}
-                </Button>
+                <Link href="https://wa.me/+6282244621417?text=Halo,%20Saya%20ingin%20bertanya%20tentang%20anda">
+                  <Button className="mt-4">
+                    {language === "id" ? "Kontak" : "Contact"}
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
